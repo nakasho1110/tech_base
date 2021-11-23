@@ -1,0 +1,112 @@
+$font_color_1: #f8f8ff;
+$font_color_2: #d3d3d3;
+
+body{
+    background-color: $font_color_1;
+}
+
+header{
+    padding: 10% 0%;
+    div{
+        width: 750px;
+        margin: 0 auto;
+        h1{
+            font-family: "Bradley Hand";
+            font-size: 550%;
+            line-height: 0;
+        }
+        p{
+            font-family: "DIN Condensed";
+            font-size: 150%;
+            line-height: 0;
+            color: $font_color_2;
+        }
+        span{
+            color: #4d0082;
+            opacity: 0.3;
+        }
+    }
+}
+
+main{
+    font-family: "Hannotate TC", sans-serif;
+}
+
+footer{  
+    div{
+        width: 10px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 5% 0%;
+        width: 750px;
+        h2{
+            font-family: "DIN Condensed";
+            font-size: 200%;
+        }
+        p{
+            line-height: 1;
+        }
+    }
+    font-family: "Hannotate TC", sans-serif;
+}
+
+p{
+    line-height: 0.7;
+}
+
+.parents{
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 750px;
+    h2{
+        border-bottom: 1px $font_color_1 solid;
+    }
+}
+
+.major{
+    .contents{
+        position: absolute;
+        color: $font_color_1;
+        text-align: left;
+        top: 60%;
+        left: 5%;
+        }
+}
+
+.food{
+    .contents{
+    position: absolute;
+    color: $font_color_1;
+    text-align: left;
+    top: 35%;
+    left: 45%;
+    }
+    .comment{
+    position: absolute;
+    color: $font_color_1;
+    text-align: left;
+    top: 85%;
+    left: 3%;
+    }
+}
+
+.hobby{
+    .contents{
+        position: absolute;
+        color: $font_color_1;
+        text-align: left;
+        top: 0%;
+        left: 30%;
+        }
+}
+
+.etc{
+    .contents{
+        position: absolute;
+        color: $font_color_1;
+        text-align: left;
+        top: 0%;
+        left: 2%;
+        }
+}

@@ -1,0 +1,111 @@
+body {
+  background-color: #f8f8ff;
+}
+
+header {
+  padding: 10% 0%;
+}
+
+header div {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header div h1 {
+  font-family: "Bradley Hand";
+  font-size: 550%;
+  line-height: 0;
+}
+
+header div p {
+  font-family: "DIN Condensed";
+  font-size: 150%;
+  line-height: 0;
+  color: #d3d3d3;
+}
+
+header div span {
+  color: #4d0082;
+  opacity: 0.3;
+}
+
+main {
+  font-family: "Hannotate TC", sans-serif;
+}
+
+footer {
+  font-family: "Hannotate TC", sans-serif;
+}
+
+footer div {
+  width: 10px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 5% 0%;
+  width: 750px;
+}
+
+footer div h2 {
+  font-family: "DIN Condensed";
+  font-size: 200%;
+}
+
+footer div p {
+  line-height: 1;
+}
+
+p {
+  line-height: 0.7;
+}
+
+.parents {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.parents h2 {
+  border-bottom: 1px #f8f8ff solid;
+}
+
+.major .contents {
+  position: absolute;
+  color: #f8f8ff;
+  text-align: left;
+  top: 60%;
+  left: 5%;
+}
+
+.food .contents {
+  position: absolute;
+  color: #f8f8ff;
+  text-align: left;
+  top: 35%;
+  left: 45%;
+}
+
+.food .comment {
+  position: absolute;
+  color: #f8f8ff;
+  text-align: left;
+  top: 85%;
+  left: 3%;
+}
+
+.hobby .contents {
+  position: absolute;
+  color: #f8f8ff;
+  text-align: left;
+  top: 0%;
+  left: 30%;
+}
+
+.etc .contents {
+  position: absolute;
+  color: #f8f8ff;
+  text-align: left;
+  top: 0%;
+  left: 2%;
+}
+/*# sourceMappingURL=profile.css.map */
